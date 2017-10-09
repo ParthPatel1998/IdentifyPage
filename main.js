@@ -4,7 +4,6 @@ if ('addEventListener' in window) {
 	document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
 }
 
-
 function togglemore() { 
     // get the form 
     var myForm = document.getElementById('more');
@@ -66,10 +65,10 @@ $(document).ready(function(){
     });
 });
 
-/*
+
 $(document).ready(function(){
   $("div.form").click(function(){
     $("form").slideToggle(100);
     
   });
-}); */
+});

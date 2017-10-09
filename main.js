@@ -4,7 +4,7 @@ if ('addEventListener' in window) {
 	document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
 }
 
-/*
+
 function togglemore() { 
     // get the form 
     var myForm = document.getElementById('more');
@@ -52,7 +52,7 @@ function toggleForm() {
       //formButton.className.replace = 'fa fa-minus-square';
     }
   } 
-*/
+
 //JQuery (pick one from this and toggle funtions)
 $(document).ready(function(){
     $("#togglemore").click(function(){
